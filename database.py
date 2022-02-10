@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 # DATABASE_URL = 'postgresql://postgres:123@localhost:5432/dragonier'
 
-DATABASE_URL = 'postgresql://xpjfchbo:urdE0vW2Q8Q9iVYuX6-DGmundndpKKBc@rosie.db.elephantsql.com/xpjfchbo'
+DATABASE_URL = 'postgresql://xpjfchbo:password@rosie.db.elephantsql.com/xpjfchbo'
 
 engine = create_engine(DATABASE_URL)
 
